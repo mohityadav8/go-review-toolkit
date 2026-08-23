@@ -1,6 +1,34 @@
-# Go Code Review Toolkit
+<div align="center">
+  <img src="assets/logo (4).png" alt="Go Review Toolkit logo" width="120" height="120">
 
-A Claude Code plugin — and standalone CLI — for exploring, analyzing, and reviewing Go source code. It answers the question: **where are the bugs, race conditions, and maintenance risks in this Go codebase?**
+  <h1>go-review-toolkit</h1>
+
+  <p>
+    A Claude Code plugin — and standalone CLI — for exploring, analyzing, and reviewing Go source code.
+  </p>
+  <p>
+    goroutine leaks · data races · error handling · context propagation · deadlock detection · reproducible crashes
+  </p>
+
+  <p>
+    <img alt="go" src="https://img.shields.io/badge/go-1.21+-00ADD8?style=flat-square&logo=go&logoColor=white">
+    <img alt="license" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
+    <img alt="agents" src="https://img.shields.io/badge/agents-26-2ea043?style=flat-square">
+    <img alt="commands" src="https://img.shields.io/badge/commands-8-2ea043?style=flat-square">
+    <img alt="framework" src="https://img.shields.io/badge/framework-Claude%20Code-6e40c9?style=flat-square">
+  </p>
+
+  <p>
+    <a href="#quick-start">Quick start</a> ·
+    <a href="#whats-included">What's included</a> ·
+    <a href="#how-it-works">How it works</a> ·
+    <a href="#installation">Installation</a>
+  </p>
+
+  <hr>
+</div>
+
+It answers the question: **where are the bugs, race conditions, and maintenance risks in this Go codebase?**
 
 Built for Go's specific concerns — goroutine lifecycle, channel discipline, error handling, context propagation, interface nil semantics — not generic linting. This is not `go vet` or `golangci-lint` with extra rules; it's a review campaign that reads code the way a senior Go reviewer would, then classifies every finding as **FIX / CONSIDER / POLICY / ACCEPTABLE**.
 
@@ -92,4 +120,4 @@ For detailed usage, agent descriptions, and recommended workflows, see the plugi
 
 ## License
 
-MIT — see LICENSE for details.# go-review-toolkit
+MIT — see LICENSE for details.
