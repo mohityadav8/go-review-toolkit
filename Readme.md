@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo (4).png" alt="Go Review Toolkit logo" width="120" height="120">
+  <img src="logo (4).png" alt="Go Review Toolkit logo" width="120" height="120">
 
   <h1>go-review-toolkit</h1>
 
