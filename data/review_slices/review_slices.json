@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "description": "Campaign manifest tracking which slices of a target repo have been reviewed.",
+  "slices": []
+}

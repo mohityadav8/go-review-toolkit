@@ -1,0 +1,20 @@
+{
+  "name": "go-review-toolkit",
+  "version": "0.1.0",
+  "description": "A Claude Code plugin for exploring, analyzing, and reviewing Go source code.",
+  "author": "mohityadav8",
+  "license": "MIT",
+  "commands": {
+    "map": "plugin/commands/map.md",
+    "health": "plugin/commands/health.md",
+    "hotspots": "plugin/commands/hotspots.md",
+    "explore": "plugin/commands/explore.md",
+    "informed-explore": "plugin/commands/informed-explore.md",
+    "known-issues": "plugin/commands/known-issues.md",
+    "reproduce": "plugin/commands/reproduce.md",
+    "diff-review": "plugin/commands/diff-review.md"
+  },
+  "skills": [
+    "plugin/skills/task-workflow"
+  ]
+}

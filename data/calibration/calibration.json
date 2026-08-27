@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "description": "Calibration data distinguishing corpus-wide baseline findings from new-territory findings in a given slice.",
+  "baseline": {}
+}

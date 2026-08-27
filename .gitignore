@@ -1,0 +1,19 @@
+# Binaries
+/bin/
+goreview
+goreview.exe
+
+# Go build/test artifacts
+*.test
+*.out
+vendor/
+
+# Generated reports (run-specific, not tracked)
+reports/*
+!reports/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
